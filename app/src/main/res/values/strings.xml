@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather</string>
+
+    <string name="settings_city_key" translatable="false">city_name</string>
+
+    <string name="settings_state_key" translatable="false">state_name</string>
+
+    <string name="settings_country_key" translatable="false">country_name</string>
+
+</resources>

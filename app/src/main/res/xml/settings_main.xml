@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+   >
+
+    <EditTextPreference
+        android:defaultValue="White Plains"
+        android:inputType="text"
+        android:key="@string/settings_city_key"
+        android:title="City"
+        android:selectAllOnFocus="true"
+        android:hint="Eg. White Plains"/>
+
+    <EditTextPreference
+        android:defaultValue="New York"
+        android:inputType="text"
+        android:key="@string/settings_state_key"
+        android:title="State"
+        android:selectAllOnFocus="true"
+        android:hint="Eg. New York"
+        />
+
+
+    <EditTextPreference
+        android:defaultValue="US"
+        android:inputType="text"
+        android:key="country_name"
+        android:title="Country"
+        android:selectAllOnFocus="true"
+        android:hint="Eg. US"/>
+
+
+</PreferenceScreen>
